@@ -5,13 +5,13 @@
 
 ## 📖 The Business Story
 
-Operations teams across multiple warehouse sites were generating data in silos — each location used a different system, exported in different formats, on different schedules. Leadership had **no single source of truth**, and analysts were spending 15+ hours a week manually consolidating files just to build reports.
+Operations teams across multiple warehouse sites were generating data in silos, each location used a different system, exported in different formats, on different schedules. Leadership had **no single source of truth**, and analysts were spending 15+ hours a week manually consolidating files just to build reports.
 
 As the BI Engineer on this project, I designed and implemented an end-to-end pipeline that:
 1. Ingested raw data from multiple source formats (CSV, JSON, simulated API)
 2. Applied standardized transformations and data quality checks in a staging layer
 3. Loaded clean, modeled data into a SQL analytics layer
-4. Surfaced an executive Power BI dashboard on top — automatically refreshed
+4. Surfaced an executive Power BI dashboard on top, automatically refreshed
 
 ---
 
@@ -107,21 +107,21 @@ project3-azure-pipeline/
 
 ## 🛠️ Tools & Technologies
 
-- **Azure Data Factory** — orchestration, scheduling, copy activities
-- **Azure Data Lake Storage Gen2** — raw file landing zone
-- **Python (pandas, pyarrow)** — transformation, quality checks, Parquet output
-- **SQL Server** — star schema, stored procedures, indexed views
-- **Power BI + DAX** — executive dashboard, RLS, scheduled refresh
+- **Azure Data Factory**, orchestration, scheduling, copy activities
+- **Azure Data Lake Storage Gen2**, raw file landing zone
+- **Python (pandas, pyarrow)**, transformation, quality checks, Parquet output
+- **SQL Server**, star schema, stored procedures, indexed views
+- **Power BI + DAX**, executive dashboard, RLS, scheduled refresh
 
 ---
 
 ## 📊 Dashboard Pages
 
-1. **Pipeline Health Monitor** — daily run status, records ingested, rejection rate
-2. **Executive Operations Summary** — unified KPIs across all source systems
-3. **Data Lineage View** — which records came from which source on which date
-4. **Regional Performance** — cross-source regional comparison
-5. **Data Quality Scorecard** — accuracy, completeness, timeliness by source
+1. **Pipeline Health Monitor**, daily run status, records ingested, rejection rate
+2. **Executive Operations Summary**, unified KPIs across all source systems
+3. **Data Lineage View**, which records came from which source on which date
+4. **Regional Performance**, cross-source regional comparison
+5. **Data Quality Scorecard**, accuracy, completeness, timeliness by source
 
 ---
 
